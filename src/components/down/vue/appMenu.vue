@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import appList from './List.vue';
+import appList from './appList.vue';
 
 export default {
   components: {
@@ -42,21 +42,21 @@ export default {
 
 <style scoped>
 .down {
-  margin: 20px 0;
-  border: 1px solid #ccc;
-  padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  background-color: #e0e0e0;
-  padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    padding: 10px;
 }
 
 .content {
-  padding: 10px 0;
+    padding: 10px 0;
 }
 </style>

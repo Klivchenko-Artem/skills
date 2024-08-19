@@ -33,33 +33,33 @@ export default {
 
 <style scoped>
 .inner-down {
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  background-color: #f7f7f7;
-  padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    padding: 10px;
 }
 
 .content {
-  display: flex;
-  align-items: center;
-  padding-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
 }
 
 img {
-  max-width: 100px;
-  max-height: 100px;
-  margin-right: 20px;
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 20px;
 }
 
 p {
-  margin: 0;
+    margin: 0;
 }
 </style>
